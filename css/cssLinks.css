@@ -1,0 +1,92 @@
+        
+        body{
+                font-family: 'Arial', sans-serif;
+        }
+        
+        .navbar {
+              border-radius: 0;
+              margin-bottom: 0;
+              background: linear-gradient(to top right, #032541 -1%, #306782 100%);
+              padding: 10px 0;
+        }
+          .row.content {
+              height: auto;
+        }
+          .sidenav {
+              background-color: #CECECE;
+              height: 1300px;
+              padding:5px 3px 0 1px;
+              width: 20%;
+              box-shadow: 0px 0px 2px 1px rgba(37, 37, 37, 0.39);
+        }
+          footer{
+              background-color: #6A7F8E;
+              padding-top:5px;
+              border-top: solid 1px rgba(37, 37, 37, 0.39);
+        }
+          .nav-pills>.pill-link{
+              margin-top: 5px;
+              margin-bottom: 5px;
+              font-size: 17px;
+        }
+          .nav-pills>li>a:hover{
+              background: linear-gradient(to top left, #cee8fd 0%, #075392 140%);
+              color: white;
+        }
+          .nav-pills>li>a:active{
+              color: white;
+              text-decoration: none;
+              background: linear-gradient(to bottom, #4593ba 0%, #053861 140%);
+        }
+          .nav-pills>li.active>a,.nav-pills>li.active>a:hover,.nav-pills>li.active>a:focus{
+              font-size: 17px;
+              color:#fff;
+              background: linear-gradient(to top right, #032541 -1%, #306782 100%);
+        }
+        .body-content{
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            
+        }
+        table, td, th {
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        th, td {
+            text-align: left;
+            padding: 8px;
+        }
+        
+        tr:nth-child(even){
+            background-color: #f2f2f2;
+        }
+        #last-link{
+            margin-bottom: 220px;
+        }
+        .student-detail{
+                font-size: 18px;
+                margin-bottom: 25px;
+                margin-top: 35px;
+                margin-left: 5px;
+                width: 80%
+        }
+        .student-detail span{
+                color:#808080;
+        }
+        @media screen and (max-width: 767px) {
+            .sidenav {
+              height: auto;
+              
+              width: auto;
+            }
+            #last-link{margin-bottom: 0;}
+            .row.content {height: auto;}
+            .body-content{
+                margin-left: -4px;
+            }
+            
+        }

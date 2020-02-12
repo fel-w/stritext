@@ -1,0 +1,260 @@
+/*---------------------------------------
+     CSS for the Portal
+----------------------------------------*/
+    
+     .navbar {
+          border-radius: 0;
+          margin-bottom: 0;
+          background: linear-gradient(to top right, #032541 -1%, #306782 100%);
+          padding: 10px 0;
+     }
+     
+      footer{
+          background-color: #6A7F8E;
+          padding-top:5px;
+          box-shadow: 0px 0px 2px 1px rgba(37, 37, 37, 0.8);
+     }
+      
+      #main{
+          padding-top: 65px;
+          /*background: linear-gradient(to bottom, #d1e3fa -16%, #1b4864 92%);*/
+     }
+      .averageGraph{
+          box-shadow: 0px 0px 2px 1px rgba(37, 37, 37, 0.39);
+          height: 630px;
+          width: 73%;
+          background-color: white;
+          margin: -5px 0 10px 6px;
+     }
+   
+      .flexWelcome{
+          display: flex;
+          padding-top: 10px;
+          margin: 18px 0;
+     }
+      .flex-item-welcome{
+          height: 200px;
+          margin-bottom: 10px;
+          border-radius: 8px;
+          width: 40%;
+          background-color: white;
+          box-shadow: 0px 0px 2px 1px rgba(37, 37, 37, 0.39);
+     }
+      
+      .flexRate{
+          display: flex;
+          flex-direction: column;
+          padding-top: 10px;
+          margin-top: -15px;
+     }
+      .flex-item-rate{
+          height: 200px;
+          margin-bottom: 15px;
+          background-color: #f2f2f2;
+          box-shadow: 0px 0px 3px 1px rgba(37, 37, 37, 0.60);
+     }
+      .thirdFlex{
+          display: flex;
+          padding-top: 10px;
+          margin: 0 0 12px 0;
+          
+      }
+      .flex-item-3{
+          box-shadow: 0px 0px 2px 1px rgba(37, 37, 37, 0.39);
+          height: 210px;
+          margin-bottom: 10px;
+          width: 30%;
+          margin-right: 15px;
+          border-radius: 8px;
+      }
+      .itemheading{
+          margin-top: 20px;
+          font-size:20px;
+          color:black;
+          text-align: center;
+      }
+      .itemheading-link{
+          margin-top: 25px;
+          font-size:25px;
+          text-align: center;
+      }
+      .itemheading-link-tasks{
+          font-size:20px;
+      }
+      .figure{
+          color:#000000;
+          font-size:52px;
+          text-align: center;
+      }
+      .figure-link{
+          font-size: 50px;
+          color: #404040;
+          margin-left:60px;
+          margin-top: 18px;
+      }
+      .figure-link-tasks{
+          font-size: 40px;
+          color: #404040;                
+      }
+      .welc{
+          color:#061A20;
+          font-size:45px;
+          line-height:0.7;
+      }
+      #main a{
+          color: black;
+          text-decoration: none;
+          background: linear-gradient(to top, #aac2da 60%, #333333 180%);
+      }
+      #main a:hover{
+          color: white;
+          text-decoration: none;
+          background: linear-gradient(to top left, #cee8fd 0%, #075392 140%);
+          transition:0.4s all;
+              -webkit-transition:0.4s all;
+              -o-transition:0.4s all;
+              -moz-transition:0.4s all;
+              -ms-transition:0.4s all;
+      }
+      #main a:active{
+          color: white;
+          text-decoration: none;
+          background: linear-gradient(to top right, #032541 -1%, #306782 100%);
+      }
+      #main a:focus{
+          text-decoration: none;
+      }
+     
+      .glyphStyle{
+          font-size: 85px;
+          margin-top: 20px;
+      }
+      .glyphicon-tasks {
+          font-size: 90px;
+          margin-top: 20px;
+      }
+      .flex-item-3 .progress-section{
+          margin-left: -30px;
+          margin-top: -8px;
+      }
+      
+      .flex-item-welcome .progress-section{
+          margin-top: 20px;
+          margin-left: 10px;
+          text-align: center;
+      }
+      .flex-item-welcome .figure-link{
+          margin-right: 55px;
+      }
+      @media (max-width: 1320px){
+          .averageGraph {
+              margin-top: 15px;
+              margin-left: 0;
+              width: 100%;
+          }
+      }
+       @media (max-width: 765px){
+          canvas{
+               margin-top: 100px;
+          }
+          .itemheading, .itemheading-link, .itemheading-link-tasks{
+              margin: 10px 10px  0 10px;
+              font-size:18px;
+              text-align: center;
+          }
+          .figure, .figure-link, .figure-link-tasks{
+              font-size:22px;
+          }
+          .welc{
+              margin-top: 6px;
+              font-size: 26px;
+          }
+          .flex-item-3{
+              height:280px;
+          }
+          .flex-item-welcome{
+              height:250px;
+          }
+          .flex-item-rate .figure{
+              font-size: 60px;
+          }
+          .figure-link{margin: 10px 0 5px 0;}
+          .flex-item-3 .progress-section{
+              text-align: center;
+              margin-right: -30px;
+          }
+          .flex-item-welcome .progress-section{
+              margin-top: 0;
+              margin-right:-30px;
+          }
+          .flex-item-welcome .progress-bar1{
+              position: absolute;
+              top:130px;
+              right: 50px;
+          }
+          .icon{
+              margin-top: 50px;
+          }
+      }
+
+
+/*---------------------------------------
+     CSS for the progress bars
+----------------------------------------*/
+     .progress-bar1 {
+          height: 100px;
+          width: 100px;
+          margin:0 auto;
+     }
+     
+     .progress-bar1 div {
+          position: absolute;
+          height: 100px;
+          width: 100px;
+          border-radius: 50%;
+     }
+     
+     .progress-bar1 div span {
+          position: absolute;
+          font-family: Arial;
+          font-size: 25px;
+          line-height: 75px;
+          height: 75px;
+          width: 75px;
+          left: 12.5px;
+          top: 12.5px;
+          text-align: center;
+          border-radius: 50%;
+          background-color: white;
+          color: black;
+     }
+     
+     .progress-bar1 .background { background-color: #b3cef6; }
+     
+     .progress-bar1 .rotate {
+          clip: rect(0 50px 100px 0);
+          background-color: #4b86db;
+     }
+     
+     .progress-bar1 .left {
+          clip: rect(0 50px 100px 0);
+          opacity: 1;
+          background-color: #b3cef6;
+     }
+     
+     .progress-bar1 .right {
+          clip: rect(0 50px 100px 0);
+          transform: rotate(180deg);
+          opacity: 0;
+          background-color: #4b86db;
+     }
+     
+     @keyframes
+          toggle {  0% {
+                    opacity: 0;
+               }
+               100% {
+                    opacity: 1;
+               }
+          }
+          
